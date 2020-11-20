@@ -7,6 +7,14 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <!-- reset -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- 3rd party -->
+
+  <!-- components -->
+  <link rel="stylesheet" href="./css/Layout.css">
+  <link rel="stylesheet" href="./css/contentRow.css">
+  <!-- custom -->
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,14 +23,35 @@
   </style>
 </head>
 <body>
-
-  We're coming soon
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
-  
+<!-- Container main part -->
+  <div class="container">
+    <div class="row">
+      <!-- Left column part -->
+      <div class="left-column col-6">
+        <div class="Form">
+          <div class="Logo">
+            <img src="./images/logo.svg" alt="logo">
+          </div>
+          <h1 class="title">We're coming soon</h1>
+          <p class="title-sub">Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <div class="email-form">
+            <input type="Email Address" placeholder="Email Address">
+          </div>
+        </div>
+      </div>
+      <!-- Right column part -->
+      <div class="right-column col-6">
+        <div class="hero">
+          <img class="hero-dk" src="./images/hero-desktop.jpg" alt="hero-desktop">
+        </div> 
+        <!-- <div class="hero-mb col-12">
+          <img src="./images/hero-mobile.jpg" alt="hero-desktop">
+        </div>  -->
+      </div>
+    </div>
+  </div>
+  <!-- Email Address -->
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

@@ -1,0 +1,13 @@
+.left-column {
+    display: inline-block;
+    display: left;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+
+}
+
+.right-column {
+    display: inline-block;
+    background-color: green;
+
+}
