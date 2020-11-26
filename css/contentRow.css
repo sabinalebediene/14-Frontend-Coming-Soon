@@ -56,6 +56,9 @@
         margin-bottom: 0px;
         text-align: center;
     }
+    .right-column {
+        display: none;
+    }
     .logo {
         padding: 20px;
     }
