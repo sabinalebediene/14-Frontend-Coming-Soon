@@ -14,60 +14,94 @@
     }
     .hero-mb {
         visibility: hidden;
+        width: 0px;
     }
 
     .left-column > .form {
         margin-left: 90px;
-        margin-right: 120px;
-        margin-top: 50px;
-        margin-bottom: 100px;
+        /* margin-right: 500px; */
+
     }
         .left-column > .form > .logo {
-
+            margin-top: 50px;
+            padding-right: 500px;
         }
-        .left-column > .form > .title {
-            
+        .left-column > .form > .title1 {
+            font-family: 'JosefinSans';
+            text-transform: uppercase;
+            font-weight: 600px;
+            font-size: 60px;
+            color: hsl(0, 36%, 70%);
+            line-height: 50px;
+            margin-top: 80px;
+        }
+        .left-column > .form > .title2, .title3 {
+            font-family: 'JosefinSans';
+            text-transform: uppercase;
+            /* font-weight: 600px; */
+            font-size: 60px;
+            line-height:50px;
+        }
+        .left-column > .form > .sub-title {
+            font-family: 'JosefinSans';
+            color: hsl(0, 36%, 70%);
+            font-weight: 300;
         }
 
 @media (max-width: 1300px) {
-    .hero-dk {
-        max-height: 568px;
-}
-@media (max-width: 1100px) {
-    .hero-dk {
-        height: 100%;
-        width: auto;
+    .left-column {
+        padding-right: 0px;
     }
     .left-column > .form {
-        margin-left: 50px;
-        margin-right: 60px;
+        margin-left: 20px;
         margin-top: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 100px;   
+    }
+    .hero-dk {
+        max-height: 568px;
+    }
+    .left-column > .form > .logo {
+        padding-right: 450px;
+    }
+}
+@media (max-width: 1100px) {
+    .left-column > .form {
+        margin-right: 0px;
+    }
+    .left-column > .form > .logo {
+        padding-right: 300px;
     }
 }
 @media (max-width: 900px) {
     .hero-dk {
         height: 100%;
         width: auto;
-
+    }
+    .left-column > .form > .logo {
+        padding-right: 100px;
     }
 }
 @media (max-width: 700px) {
+    .left-column {
+        padding-right: 0px;
+    }
     .left-column > .form {
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
-        text-align: center;
+
     }
     .right-column {
         display: none;
+        width: 0px;
     }
     .logo {
         padding: 20px;
     }
     .hero-dk {
         visibility: hidden;
+        
     }
     .hero-mb {
         visibility: visible;

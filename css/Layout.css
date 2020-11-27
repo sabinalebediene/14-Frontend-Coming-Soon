@@ -214,4 +214,5 @@ body {
     .container > .row > .col-sm-1 {
         grid-column: span 1;
     }
+
 }
