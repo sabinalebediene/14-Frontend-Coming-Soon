@@ -67,7 +67,7 @@
             margin-left: -60px;
             border-radius: 30px;
             padding: 12px 30px;
-            background-color:hsl(0, 93%, 68%);
+            background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
             cursor: pointer;
         }
 
