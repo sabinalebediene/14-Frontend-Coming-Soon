@@ -18,13 +18,14 @@
     }
 
     .left-column > .form {
+        padding-right: 210px;
         margin-left: 90px;
         /* margin-right: 500px; */
 
     }
         .left-column > .form > .logo {
             margin-top: 50px;
-            padding-right: 500px;
+            padding-right: 210px;
         }
         .left-column > .form > .title1 {
             font-family: 'JosefinSans';
@@ -46,6 +47,27 @@
             font-family: 'JosefinSans';
             color: hsl(0, 36%, 70%);
             font-weight: 300;
+            margin: 20px 0;
+        }
+    .email-form {
+        text-align: center;
+        margin-top: 20px;
+    }
+        .email-form > .email-btn {
+            position: relative;
+            color: hsl(0, 6%, 24%);
+            border: 2px solid hsl(0, 6%, 24%);
+            border-radius: 20px;
+            line-height: 40px;
+            padding-right: 210px;
+        }
+        .icon-arrow {
+            position: absolute;
+            margin-left: -60px;
+            border-radius: 30px;
+            padding: 12px 30px;
+            background-color:hsl(0, 93%, 68%);
+            cursor: pointer;
         }
 
 @media (max-width: 1300px) {
@@ -53,6 +75,7 @@
         padding-right: 0px;
     }
     .left-column > .form {
+        padding-right: 0px;
         margin-left: 20px;
         margin-top: 50px;
         margin-bottom: 100px;   
@@ -80,6 +103,9 @@
     .left-column > .form > .logo {
         padding-right: 100px;
     }
+    .email-form > .email-btn {
+        padding-right: 80px;
+    }
 }
 @media (max-width: 700px) {
     .left-column {
@@ -90,7 +116,6 @@
         margin-right: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
-
     }
     .right-column {
         display: none;
@@ -101,10 +126,15 @@
     }
     .hero-dk {
         visibility: hidden;
-        
     }
     .hero-mb {
         visibility: visible;
         width: 100%;
+    }
+    .title1, .title2, .title3, .sub-title {
+        text-align: center;
+    }
+    .email-form > .email-btn {
+        padding-right: 150px;
     }
 }
